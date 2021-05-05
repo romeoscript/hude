@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+body{
+    background-image: url(./images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header h1{
+    font-size: 45px;
+    color: white;
+    padding-left: 45px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+main{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 40px;
+   
+}
+.content{
+    justify-content: space-between;
+    padding-top: 60PX;
+   
+}
+img{
+    width: 700px;
+    flex-basis: 40;
+    height: 470px;
+}
+.content h2{
+    line-height: 50px;
+    font-size: 40px;
+    color: white;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+.content p{
+    color: white;
+    font-size: 20px;
+    line-height: 25px;
+    padding-left: 50px;
+    padding-right: 1px;
+}
+button{
+   margin-top: 20px;
+   margin-left: 50px;
+   padding:10px 60px;
+   border-radius: 30px;
+   border: none;
+   color: purple;
+}
+button:hover{
+    margin-top: 20px;
+    margin-left: 50px;
+    padding:10px 60px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: tomato;
+ }
+ footer{
+     float: right;
+     padding-right: 40px;
+ }
+ .fab{
+     border: 2px solid white;
+     border-radius: 50px;
+     font-size: 25px;
+     color: white;
+     padding: 0.4em;
+     margin-right: 5px;
+ }
+ @media screen and (max-width:600px){
+    header h1{
+        font-size: 30px;
+        color: white;
+        padding-left: 45px;
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+ 
+ main{
+     display: block;
+    }
+     img{
+        width: 100%;
+        align-items: center;
+    }
+    .content{
+        text-align: center;
+    }
+    .content h2{
+        line-height: 50px;
+        font-size: 30px;
+        margin-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .content p{
+        color: white;
+        font-size: 20px;
+        line-height: 25px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    button{
+        margin-top: 20px;
+        margin-left: 15px;
+        padding:10px 80px;
+        border-radius: 30px;
+        border: none;
+        color: purple;
+     }
+     footer{
+        float: none;
+        padding-left: 45px;
+        text-align: center;
+
+    }
+    .fab{
+        border: 2px solid white;
+        border-radius: 50px;
+        font-size: 15px;
+        color: white;
+        padding: 0.4em;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+ }
